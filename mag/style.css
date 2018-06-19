@@ -1,0 +1,101 @@
+/*
+Theme Name: Twenty Thirteen
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*top menu*/
+#menu-top-menu{
+	margin-right: 10px!important;
+}
+/*menu*/
+.current-menu-item{
+  background: #200238;
+}
+/*post*/
+#post-list{
+font-size: 15px;
+margin-bottom: 15px;
+}
+.page-numbers{
+	border: 1px solid #cccccc;
+    padding: 5px 15px;
+    margin-right: -2px;
+    border-radius: 4px;
+}
+.pagination .current{
+ background-color: #2a024a;
+ color: #f1f1f1;
+ border-radius: 4px;
+ border: transparent;
+}
+.pagination h2{
+	display: none;
+}
+#tag{
+   display: inline-block;
+    margin: 10px -4px 3px 10px;
+}
+#tag a{
+	border-radius: 5px;
+    font-size: 14px;
+    padding: 4px 8px;
+    font-weight: 400;
+    background-color: transparent;
+    border: transparent;
+    color: #ffffff;
+    background: #2a024a;
+}
+
+/*search form*/
+.search-form{
+    margin-top: 8px;
+}
+.search-field{
+font-size: 14px;
+border: transparent;
+height: 34px;
+padding: 0px 0px 0px 13px;
+border-radius: 4px;
+font-weight: 400;
+}
+.search-form span{
+display:none;
+}
+
+/*widgets*/
+.widget ul{
+padding-left: 2px;
+list-style: none;
+}
+.widget ul li{
+    margin-bottom: 10px;
+}
+.widget ul li a{
+font-weight: 500;
+font-size: 16px;
+}
+.widget ul li a:hover{
+    color: #2a024a;
+    margin-left: 6px;
+}
+.widget>ul>li>a:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    margin-right: 6px;
+}
+/*next-prev-post*/
+.next-prev-post li a{
+    margin-bottom: 5px;
+    margin-top:5px;
+}
