@@ -1,0 +1,262 @@
+@primary-color:#194D70;
+/*
+-------------------------------------
+1.core css
+-------------------------------------
+*/
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  background-color: #eaeaea;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+p{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.img-responsive {
+  width: 100%;
+}
+.main-container{
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  max-width: 1100px;
+  margin:15px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 4px -1px rgba(145,145,145,1);
+  -moz-box-shadow: 0px 1px 4px -1px rgba(145,145,145,1);
+  box-shadow: 0px 1px 4px -1px rgba(145,145,145,1);
+}
+.container{
+  max-width: 1080px;
+  margin:0 auto;
+}
+.basic-padding2 {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+.basic-padding {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*
+-------------------------------------
+2.prenav
+-------------------------------------
+*/
+.prenav{
+  background-color: @primary-color;
+  padding: 6px 8px 4px;
+  p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Questrial', sans-serif;
+  }
+  img{
+    width: 20px;
+  }
+  ul{
+    margin-bottom: 0px;
+    li{
+      padding-right: 0px;
+      padding-left: 0px;
+      a{
+        font-size: 14px;
+        color: #fff;
+        padding-right: 8px;
+        padding-left: 4px;
+      }
+    }
+  }
+}
+.prenav ul li:after {
+  content: "|";
+  color: #fff;
+}
+.prenav ul li:last-child:after {
+  content: none;
+}
+/*
+-------------------------------------
+3.logo-area
+-------------------------------------
+*/
+.logo-area{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  img{
+    width: 200px;
+  }
+}
+/*
+-------------------------------------
+4.main-nav
+-------------------------------------
+*/
+.main-nav{
+  border-radius: 0px;
+  border: transparent;
+  margin-bottom: 0px;
+  background: #eaeaea;
+  min-height: 42px;
+  .navbar-nav{
+    li{
+      a{
+        padding-top: 12px;
+        padding-bottom: 8px;
+      }
+    }
+  }
+  .nav{
+    li{
+      a{
+        padding: 12px 8px 8px;
+        color: #252525;
+        font-weight:  700;
+        font-size:  14px;
+      }
+    }
+  }
+  .navbar-right {
+    margin-right: 15px !important;
+  }
+}
+.breadcrumb{
+  font-weight: 700;
+  border-radius: 0px;
+  padding: 5px 24px;
+  border-bottom: 1px solid #eaeaea;
+  li{
+    font-size: 12px;
+    color: @primary-color;
+    a{
+      font-size: 12px;
+      color: #252525;
+    }
+  }
+}
+/*
+-------------------------------------
+5.blog
+-------------------------------------
+*/
+.blog{
+  margin:20px 0px;
+  h2{
+    margin-bottom: 15px;
+  }
+  img{
+    margin-bottom:  15px;
+    width: 100%;
+  }
+  p{
+    font-size: 18px;
+    color: #252525;
+  }
+}
+.sidebar{
+  padding: 15px 0px;
+}
+/*
+-------------------------------------
+6.footer
+-------------------------------------
+*/
+.footer {
+  background-color: #042c4a;
+  border-bottom: 8px solid #002038;
+  padding-top: 20px;
+  margin-top: 20px;
+  .logo {
+    width: 168px;
+    margin-bottom: 10px;
+  }
+  .about-content {
+    font-family: 'Questrial', sans-serif;
+    color: #adbcc7;
+    font-weight: 300;
+    font-size: 14px;
+    a{
+      color: #cfdde8;
+    }
+  }
+  h3 {
+    color: #edf4f9;
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  nav{
+    padding-left: 10px;
+    padding-right: 14px;
+    display: inline-block;
+    float: left;
+    min-width: 140px;
+    margin-bottom: 10px;
+    ul{
+      li{
+        margin-bottom: 5px;
+        &:before {
+            font-family: FontAwesome;
+            content: "\f105";
+            background-size: 10px 20px;
+            display: inline-block;
+            top: -2px;
+            position: relative;
+            padding-right: 4px;
+            vertical-align: middle;
+            color: #fff;
+          }
+        a{
+          color:#dce7ef !important;
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .border-top {
+    border-top: 1px solid #0b385a;
+  }
+  .footer-nav {
+    margin-bottom: -5px;
+    ul {
+      margin-top: 5px;
+      li{
+        &:before {
+          display: none;
+        }
+        margin-right: 5px;
+      }
+    }
+  }
+  img {
+    width: 32px;
+    margin-right: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
